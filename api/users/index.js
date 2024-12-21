@@ -4,7 +4,6 @@ import User from './userModel';
 import jwt from 'jsonwebtoken';
 import asyncHandler from 'express-async-handler';
 
-
 const router = express.Router();
 
 const validatePassword = (password) => {
